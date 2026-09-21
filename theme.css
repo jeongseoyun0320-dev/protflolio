@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
+:root {
+  --text-gradient: linear-gradient(110deg, #f04f78 0%, #a45de8 48%, #2d9cdb 100%);
+}
+
+body {
+  font-family: "Caveat", cursive;
+}
+
+.site-header a:not(.brand-mark),
+.hero-copy p,
+.hero h1,
+.hero-actions a,
+.intro-strip h2,
+.intro-details p,
+.skill-list span,
+.section-heading h2,
+.heading-note,
+.card-top span,
+.card-content h3,
+.card-content p,
+.project-link,
+.contact-section h2,
+.contact-copy,
+.email-link,
+.contact-form label,
+.button-light,
+.site-footer,
+.modal-content h2,
+.modal-content > p,
+.modal-tags span {
+  font-family: "Caveat", cursive;
+  color: transparent !important;
+  background-image: var(--text-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.brand {
+  font-family: "Caveat", cursive;
+  color: transparent;
+  background-image: var(--text-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 20px;
+  letter-spacing: 0;
+}
+
+.brand-mark {
+  color: var(--paper) !important;
+  background-image: none !important;
+  font-family: "Caveat", cursive;
+  font-size: 13px;
+}
+
+.hero h1 {
+  font-size: clamp(52px, 7.4vw, 96px) !important;
+  letter-spacing: 0;
+}
+
+.intro-strip h2,
+.section-heading h2,
+.contact-section h2 {
+  font-size: clamp(38px, 5vw, 68px) !important;
+  line-height: 1.08;
+}
+
+.eyebrow,
+.section-label {
+  font-family: "Caveat", cursive;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+}
+
+.hero-description,
+.intro-details p,
+.contact-copy {
+  font-size: 21px;
+  line-height: 1.45;
+}
+
+.nav,
+.header-cta,
+.button,
+.project-link,
+.site-footer,
+.modal-content,
+.contact-form label,
+.contact-form input,
+.contact-form textarea {
+  font-family: "Caveat", cursive;
+}
+
+.nav,
+.header-cta {
+  font-size: 19px;
+}
+
+.button,
+.project-link {
+  font-size: 19px;
+}
+
+.card-content h3 {
+  font-size: 28px !important;
+}
+
+@media (max-width: 700px) {
+  .brand {
+    font-size: 18px;
+  }
+
+  .hero h1 {
+    font-size: clamp(46px, 13vw, 64px) !important;
+  }
+
+  .intro-strip h2,
+  .section-heading h2,
+  .contact-section h2 {
+    font-size: clamp(34px, 10vw, 48px) !important;
+  }
+
+  .hero-description,
+  .intro-details p,
+  .contact-copy {
+    font-size: 19px;
+  }
+}
