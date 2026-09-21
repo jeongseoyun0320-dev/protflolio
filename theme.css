@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
 
 :root {
   --text-gradient: linear-gradient(110deg, #f04f78 0%, #a45de8 48%, #2d9cdb 100%);
 }
 
 body {
-  font-family: "Caveat", cursive;
+  font-family: "Jua", sans-serif;
 }
 
 .site-header a:not(.brand-mark),
@@ -30,7 +30,7 @@ body {
 .modal-content h2,
 .modal-content > p,
 .modal-tags span {
-  font-family: "Caveat", cursive;
+  font-family: "Jua", sans-serif;
   color: transparent !important;
   background-image: var(--text-gradient);
   -webkit-background-clip: text;
@@ -38,7 +38,7 @@ body {
 }
 
 .brand {
-  font-family: "Caveat", cursive;
+  font-family: "Jua", sans-serif;
   color: transparent;
   background-image: var(--text-gradient);
   -webkit-background-clip: text;
@@ -50,7 +50,7 @@ body {
 .brand-mark {
   color: var(--paper) !important;
   background-image: none !important;
-  font-family: "Caveat", cursive;
+  font-family: "Jua", sans-serif;
   font-size: 13px;
 }
 
@@ -68,7 +68,7 @@ body {
 
 .eyebrow,
 .section-label {
-  font-family: "Caveat", cursive;
+  font-family: "Jua", sans-serif;
   font-size: 18px;
   letter-spacing: 0.03em;
 }
@@ -89,7 +89,7 @@ body {
 .contact-form label,
 .contact-form input,
 .contact-form textarea {
-  font-family: "Caveat", cursive;
+  font-family: "Jua", sans-serif;
 }
 
 .nav,
